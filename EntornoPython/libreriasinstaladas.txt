@@ -1,0 +1,5 @@
+Librerias instaladas 
+
+matplotlib para las graficas
+pyserial para comunicacion por serial hacia microcontrolador
+opencv-python es opencv para ser utilizada en python
