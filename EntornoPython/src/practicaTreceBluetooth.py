@@ -35,7 +35,7 @@ while True:
     gr_lineas.set_ylim(0,100)
     gr_lineas.set_xlim(0,9)
     gr_lineas.grid(True)
-
+    
     # Grafico de barras
     grafico = gr_barras.bar(range(len(lista)), lista, color="#C5144C")
     gr_barras.set_xlabel('Sensor')

@@ -7,7 +7,7 @@ import numpy as np
 #deque permite crear listas de manera circular
 from collections import deque
 
-puerto = serial.Serial("COM12",115200,timeout=1)
+puerto = serial.Serial("COM11",115200,timeout=1)
 transmitiendo = False
 ancho, alto = 800, 600
 

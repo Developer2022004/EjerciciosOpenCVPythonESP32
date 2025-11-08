@@ -29,7 +29,7 @@ class Principal:
 
     def crearConexion(self):
         try:
-            self.conexion = serial.Serial("COM11",115200,timeout=1)
+            self.conexion = serial.Serial("COM13",115200,timeout=1)
             messagebox.showinfo("Exitoso","Conectado a la esp32")
         except:
             messagebox.showerror("Error","Error al conectar")
