@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 ancho, alto= 800, 600
 fondo = np.ones((alto,ancho,3), dtype=np.uint8) * 255 
 
-ipesp32 = "192.168.240.65"
+ipesp32 = "192.168.100.38"
 puerto = 8888
 servidor= socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 servidor.connect((ipesp32,puerto))
@@ -19,7 +19,7 @@ while True:
         
         dato = int(dato)
         
-        print(dato)
+        #print(dato)
         fondo = np.ones((alto,ancho,3), dtype=np.uint8) * 255
         cv2.putText(fondo, str(dato), (ancho//2,(alto//2)-100),cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0,0,0),2) 
         lista.append(dato)
