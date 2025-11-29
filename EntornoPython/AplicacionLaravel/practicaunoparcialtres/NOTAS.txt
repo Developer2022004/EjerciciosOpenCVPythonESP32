@@ -1,0 +1,3 @@
+para crear la ruta de api se debe de ingresar el comando
+
+php artisan install:api

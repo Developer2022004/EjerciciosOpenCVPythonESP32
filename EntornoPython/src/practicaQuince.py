@@ -43,7 +43,7 @@ while True:
         imagen = np.array(figura.canvas.buffer_rgba())
         imagen = cv2.cvtColor(imagen,cv2.COLOR_RGBA2BGRA)
         
-        cv2.imshow("Valores desde ESPROA", imagen)
+        cv2.imshow("Valores desde ESPEmmanuel via Wifi", imagen)
         #if len(lista)>=10:
             #break
         key = cv2.waitKey(25) & 0xFF 

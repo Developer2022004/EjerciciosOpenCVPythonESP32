@@ -1,0 +1,16 @@
+Para utilizar la comunicacion con apis a traves de redes locales o de desarrollo (http) se recomienda agregar
+el siguiente permiso al AndroidManifest.xml:
+
+ android:usesCleartextTraffic="true"
+
+Dicho permiso se debe de ingresar en la seccion <application 'Aqui mero'  >
+
+Ademas es necesario instalar las depedencias de comunicacion dentro del archivo pubspec.yaml
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.6.0    <= Para comunicarse por http
+  fl_chart: ^0.66   <= Para graficar la informacion
+
+una vez ingresadas las dependencias se ejecuta el comando flutter pub get

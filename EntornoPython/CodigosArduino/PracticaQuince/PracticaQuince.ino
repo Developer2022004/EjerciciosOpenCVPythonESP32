@@ -36,7 +36,6 @@ void loop() {
   if(!cliente || !cliente.connected()){
     cliente = server.available();
   }
-
   cliente.println(valor);
   delay(1000);
   
